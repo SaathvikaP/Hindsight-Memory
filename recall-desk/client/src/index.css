@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --rd-bg: #f4f6f8;
+  --rd-border: #e2e8f0;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background: var(--rd-bg);
+  color: #0f172a;
+  -webkit-font-smoothing: antialiased;
+}
